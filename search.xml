@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>C++</title>
+    <url>/2022/01/14/C++/</url>
+    <content><![CDATA[<h1 id="C"><a href="#C" class="headerlink" title="C++"></a>C++</h1><span id="more"></span>
+<h2 id="1简介"><a href="#1简介" class="headerlink" title="1简介"></a>1简介</h2><h3 id="1-1-C"><a href="#1-1-C" class="headerlink" title="1.1 C++"></a>1.1 C++</h3><p>C语言代表的过程性语言，C++在C语言的基础上添加的类代表的面向对象语言、C++模板支持的泛型编程。</p>
+<h3 id="1-2-C"><a href="#1-2-C" class="headerlink" title="1.2 C"></a>1.2 C</h3><p>汇编语言依赖于计算机的内部机器语言，是低级语言，直接操作硬件；UNIX是高级语言致力于解决问题，不针对特定的硬件，</p>
+<p>为了将低级语言的效率、硬件访问能力和高级语言的通用性、可移植性融合在一起，于是在旧语言的基础上开发了C语言</p>
+<p>数据是程序使用和处理的信息；算法是程序使用的方法</p>
+<p>C强调的是编程的算法方面</p>
+<p>C++：OOP(面向对象编程)强调的是数据；C++中类是一种规范，描述了新型数据格式，对象还是根据这种规范构造的特定数据结构，包括数据部分和操作部分，根据类定义可以创建一个对象，该对象保存了描述类的所有数据值，可使用类方法来修改对象。</p>
+<p>OOP编程不仅仅是将数据和方法合并为类定义。信息隐藏还可以保护数据，使其免遭不恰当地访问。多态让您为运算符和函数创造多个定义，通过编程上下文来确定使用哪个定义。继承让您能使用旧类派生出新类。</p>
+<p>C++是C的超集，C++的二重性及提供了高级抽象，又可以底层访问 </p>
+<h2 id="2"><a href="#2" class="headerlink" title="2"></a>2</h2><h2 id="3"><a href="#3" class="headerlink" title="3"></a>3</h2><h3 id="3-1-简单变量"><a href="#3-1-简单变量" class="headerlink" title="3.1 简单变量"></a>3.1 简单变量</h3><p>面向对象编程（OOP）的本质是设计并扩展自己的数据类型。</p>
+<p>sizeof只是一个运算符，不是函数</p>
+<p>sizeof(int类型名)     size of 变量名</p>
+<p>int n = 3; int n(3); int n{3}</p>
+<p>cout默认以十进制形式输出</p>
+<p>cout &lt;&lt; hex 十六进制</p>
+<p>cout &lt;&lt; oct 八进制 </p>
+<h3 id="3-2"><a href="#3-2" class="headerlink" title="3.2"></a>3.2</h3><p>浮点数在内存中如何存储？</p>
+<p>float 8.25 单精度 32bit</p>
+<p>double 64bit</p>
+<p>浮点数二进制的科学计数法  8.25 = 8.25*10^0</p>
+<p>1000.01   = 1.00001*2^3</p>
+<p> 0.25*2=0.5    </p>
+<p>0.5*2=1</p>
+<p>二进制至少32位，十进制至少小数点后6位</p>
+<h3 id="3-3"><a href="#3-3" class="headerlink" title="3.3"></a>3.3</h3><p>cout.setf(ios_base::fixed, ios_base::floatfield);</p>
+<p>因为float的精度不够，float类型有效位有限</p>
+<h3 id="3-4"><a href="#3-4" class="headerlink" title="3.4"></a>3.4</h3><p>C++语言没有提供自动防止超出整数类型范围的功能，需要程序员自己预估数据大小并选择合适的数据类型，每种数据类型的宽度，C++并没有做规定， 具体的值有开发平台和编译器决定。</p>
+<p>默认C++整数常量在不超出int类型范围的应用情况下，默认优先使用int类型</p>
+<p>不同的平台和编译器对应的long 和long long 类型的大小是不同的，如果long长度位4字节，则存放在double类型中不会出现舍入误差，如果long long类型位8字节，则存放在double类型中会出现舍入误差。</p>
+<h2 id="4-复合类型"><a href="#4-复合类型" class="headerlink" title="4 复合类型"></a>4 复合类型</h2>]]></content>
+      <categories>
+        <category>C&amp;C++</category>
+      </categories>
+      <tags>
+        <tag>导航</tag>
+        <tag>分享</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2022/01/14/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+</search>
