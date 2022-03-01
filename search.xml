@@ -43,7 +43,7 @@
   </entry>
   <entry>
     <title>渗透测试相关术语</title>
-    <url>/2019/12/25/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E7%9B%B8%E5%85%B3%E6%9C%AF%E8%AF%AD/</url>
+    <url>/2019/10/20/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E7%9B%B8%E5%85%B3%E6%9C%AF%E8%AF%AD/</url>
     <content><![CDATA[<h1 id="渗透测试相关术语"><a href="#渗透测试相关术语" class="headerlink" title="渗透测试相关术语"></a>渗透测试相关术语</h1><span id="more"></span>
 
 <p><strong>IP地址：</strong>IP地址（Internet Protocol Address）是指互联⽹协议地址，⼜译为⽹际协议地址。IP地址是IP协议提供的⼀种统⼀的地址格式，它为互联⽹上的每⼀个⽹络和每⼀台主机分配⼀个逻辑地址，以此来屏蔽物理地址的差异。渗透测试中，IP地址⼀般出现在服务器、PC、路由交换等设备中，可以把IP地址理解成我们⽣活中的家庭地址。 </p>
