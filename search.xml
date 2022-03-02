@@ -44,9 +44,7 @@
   <entry>
     <title>STM32</title>
     <url>/2019/01/05/STM32/</url>
-    <content><![CDATA[<h1 id="STM32"><a href="#STM32" class="headerlink" title="STM32"></a>STM32</h1><span id="more"></span>
-
-<h1 id="一、Keil创建工程"><a href="#一、Keil创建工程" class="headerlink" title="一、Keil创建工程"></a>一、Keil创建工程</h1><h2 id="1-安装-Keil-uVision4"><a href="#1-安装-Keil-uVision4" class="headerlink" title="1. 安装 Keil uVision4"></a>1. 安装 Keil uVision4</h2><h2 id="2-新建工程"><a href="#2-新建工程" class="headerlink" title="2. 新建工程"></a>2. 新建工程</h2><h3 id="（1）"><a href="#（1）" class="headerlink" title="（1）"></a>（1）</h3><h3 id><a href="#" class="headerlink" title></a><img src="/2019/01/05/STM32/image-20220115073734659.png" alt="image-20220115073734659" style="zoom:50%;"><img src="/2019/01/05/STM32/image-20220115074130502.png" alt="image-20220115074130502" style="zoom:50%;"></h3><h3 id="（2）选择处理器-具体情况具体分析"><a href="#（2）选择处理器-具体情况具体分析" class="headerlink" title="（2）选择处理器(具体情况具体分析)"></a>（2）选择处理器(具体情况具体分析)</h3><p>STMicroelectronics-&gt;STM32F103C8</p>
+    <content><![CDATA[<h1 id="STM32"><a href="#STM32" class="headerlink" title="STM32"></a>STM32</h1><h1 id="一、Keil创建工程"><a href="#一、Keil创建工程" class="headerlink" title="一、Keil创建工程"></a>一、Keil创建工程</h1><h2 id="1-安装-Keil-uVision4"><a href="#1-安装-Keil-uVision4" class="headerlink" title="1. 安装 Keil uVision4"></a>1. 安装 Keil uVision4</h2><h2 id="2-新建工程"><a href="#2-新建工程" class="headerlink" title="2. 新建工程"></a>2. 新建工程</h2><h3 id="（1）"><a href="#（1）" class="headerlink" title="（1）"></a>（1）</h3><h3 id><a href="#" class="headerlink" title></a><img src="/2019/01/05/STM32/image-20220115073734659.png" alt="image-20220115073734659" style="zoom:50%;"><img src="/2019/01/05/STM32/image-20220115074130502.png" alt="image-20220115074130502" style="zoom:50%;"></h3><h3 id="（2）选择处理器-具体情况具体分析"><a href="#（2）选择处理器-具体情况具体分析" class="headerlink" title="（2）选择处理器(具体情况具体分析)"></a>（2）选择处理器(具体情况具体分析)</h3><p>STMicroelectronics-&gt;STM32F103C8</p>
 <img src="/2019/01/05/STM32/image-20220115074927065.png" alt="image-20220115074927065" style="zoom: 50%;">
 
 <h3 id="3-选择否，不用软件自动添加，选择手动添加"><a href="#3-选择否，不用软件自动添加，选择手动添加" class="headerlink" title="(3)选择否，不用软件自动添加，选择手动添加"></a>(3)选择否，不用软件自动添加，选择手动添加</h3><img src="/2019/01/05/STM32/image-20220115075725120.png" alt="image-20220115075725120" style="zoom: 50%;">
@@ -359,5 +357,17 @@
         <tag>导航</tag>
         <tag>分享</tag>
       </tags>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/2022/03/02/C&amp;C++%E7%AC%94%E8%AE%B0/</url>
+    <content><![CDATA[<h1 id="C-C-笔试题、面试题难点解析"><a href="#C-C-笔试题、面试题难点解析" class="headerlink" title="C/C++笔试题、面试题难点解析"></a>C/C++笔试题、面试题难点解析</h1><h3 id="1、char-const-next-请对这行代码进行一下解释？"><a href="#1、char-const-next-请对这行代码进行一下解释？" class="headerlink" title="1、char *const *(*next)();请对这行代码进行一下解释？"></a>1、<code>char *const *(*next)();</code>请对这行代码进行一下解释？</h3><p>1）函数指针</p>
+<p>2）const和指针之间关系（指向常量的指针，以及指针常量）</p>
+<p>1.<code>(*next)</code>  —-&gt;next是个指针</p>
+<p>2.<code>(*next)()</code>—&gt;next是个函数指针</p>
+<p>3.<code>char *const</code> —-&gt; 应该是一个指针，常量指针</p>
+<p>4.<code>char *const *(*next)()</code> —-&gt; </p>
+<p>next是个函数指针，它指向一个没有参数的函数，并且该函数的返回值是一个指针，该指针指向一个类型为char的常量指针。</p>
+]]></content>
   </entry>
 </search>
