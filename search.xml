@@ -35,7 +35,7 @@
 <p>不同的平台和编译器对应的long 和long long 类型的大小是不同的，如果long长度位4字节，则存放在double类型中不会出现舍入误差，如果long long类型位8字节，则存放在double类型中会出现舍入误差。</p>
 <h2 id="4-复合类型"><a href="#4-复合类型" class="headerlink" title="4 复合类型"></a>4 复合类型</h2>]]></content>
       <categories>
-        <category>C++</category>
+        <category>C&amp;C++</category>
       </categories>
       <tags>
         <tag>导航</tag>
