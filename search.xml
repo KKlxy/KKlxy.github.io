@@ -4,6 +4,7 @@
     <title>C++</title>
     <url>/2018/10/05/C++/</url>
     <content><![CDATA[<h1 id="C"><a href="#C" class="headerlink" title="C++"></a>C++</h1><span id="more"></span>
+
 <h2 id="1简介"><a href="#1简介" class="headerlink" title="1简介"></a>1简介</h2><h3 id="1-1-C"><a href="#1-1-C" class="headerlink" title="1.1 C++"></a>1.1 C++</h3><p>C语言代表的过程性语言，C++在C语言的基础上添加的类代表的面向对象语言、C++模板支持的泛型编程。</p>
 <h3 id="1-2-C"><a href="#1-2-C" class="headerlink" title="1.2 C"></a>1.2 C</h3><p>汇编语言依赖于计算机的内部机器语言，是低级语言，直接操作硬件；UNIX是高级语言致力于解决问题，不针对特定的硬件，</p>
 <p>为了将低级语言的效率、硬件访问能力和高级语言的通用性、可移植性融合在一起，于是在旧语言的基础上开发了C语言</p>
@@ -34,7 +35,7 @@
 <p>不同的平台和编译器对应的long 和long long 类型的大小是不同的，如果long长度位4字节，则存放在double类型中不会出现舍入误差，如果long long类型位8字节，则存放在double类型中会出现舍入误差。</p>
 <h2 id="4-复合类型"><a href="#4-复合类型" class="headerlink" title="4 复合类型"></a>4 复合类型</h2>]]></content>
       <categories>
-        <category>C&amp;C++</category>
+        <category>C++</category>
       </categories>
       <tags>
         <tag>导航</tag>
